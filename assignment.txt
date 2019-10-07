@@ -6,17 +6,28 @@
     <meta name="description" content="Accessibility is often viewed as making your site work on screen readers. In reality, web accessibility is a subset of User Experience (UX) focused on making your websites usable by the widest range of people possible, including those who have disabilities.">
     <title> Myth: Accessibility is 'blind people' </title>
   </head>
+  
   <body>
+    <header><h1>Myth: Accessibility is 'blind people'</h1></header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <form>
+        <input type="search" name="Search" placeholder="Search">
+        <input type="submit" value="Go!">
+    </form>
     <main>
       <article>
-        <h1>Myth: Accessibility is 'blind people'</h1>
-        <p>Published on January 11, 2013 by Dave Rupert – Updated: November 23, 2018 </p>
         <p>Accessibility is often viewed as making your site work on screen readers. In reality, web accessibility is a subset of User Experience (UX) focused on making your websites usable by the widest range of people possible, including those who have disabilities.</p>
         <h2>Four categories of accessibility</h2>
         <p>Accessibility can be broken down into four key categories:</p>
         <h3>Visual</h3>
         <p>This can be non-sighted users, users with low-vision, users with obstructed vision, or even simply your aging parents.</p>
-        <h5>Associated conditions</h5>
+        <h4>Associated conditions</h4>
           <ul>
 	    <li>Myopia</li>
 	    <li>Colour blindness</li>
@@ -25,7 +36,7 @@
           </ul>
         <h3> Auditory </h3>
         <p>The web is a visual medium, but captions and fallbacks for sound-necessary media need to be considered for hearing impaired users.</p>
-        <h5>Associated conditions</h5>
+        <h4>Associated conditions</h4>
           <ul>
 	    <li>Presbycusis</li>
 	    <li>Acoustic trauma</li>
@@ -34,7 +45,7 @@
           </ul>
         <h3>Motor</h3>
         <p>People with motor impairments typically use a wide range of assistive technology from specialized keyboards, to eye trackers, to using single buttons (a device known as a “switch”) to navigate their computers.</p>
-        <h5>Associated conditions</h5>
+        <h4>Associated conditions</h4>
           <ul>
 	    <li>RSI</li>
 	    <li>Cerebral Palsy</li>
@@ -43,7 +54,7 @@
           </ul>
         <h3>Cognitive</h3>
         <p>Relates to the ease processing of information.</p>
-        <h5>Associated conditions</h5>
+        <h4>Associated conditions</h4>
           <ul>
 	    <li>Down’s syndrome</li>
 	    <li>Autism</li>
@@ -55,5 +66,7 @@
 	<p><i>Robin Christopherson (an accessibility expert who is blind) once spoke about how people that are driving but use hands-free sets or have their phone connected to the car radio are temporarily disabled, as they use the phone differently to how they normally would. Of course, no one should browse websites while they are driving but it is important to understand different situations like that, where the user may not have special software installed that a disabled user might.</i></p>
       </article>
     </main>
+    
+    <footer><p>Published on January 11, 2013 by Dave Rupert – Updated: November 23, 2018 </p></footer>
   </body>
 </html>
